@@ -1,8 +1,12 @@
-const { getData, swap } = require('../utilis')
+const { getData } = require('../utilis')
 
 const arr = getData(100)
 
 // merge函数的功能是对两个有序的数组合并成一个新的有序的数组
+// 时间复杂度：O(nlogn)
+// 空间复杂度：O(n)
+// 稳定性：稳定
+// 存在栈溢出的风险
 function merge(left, right) {
   const l1 = left.length
   const l2 = right.length

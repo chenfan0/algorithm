@@ -15,7 +15,7 @@ function insertSort(arr) {
     let j = i
     let temp = arr[j]
     // 前面的值比当前的值还大，则将前面的值向右移动
-    while (j > 0 && arr[j - 1] > temp) {
+    while (j >= 0 && arr[j - 1] > temp) {
       arr[j] = arr[j - 1]
       j--
     }
