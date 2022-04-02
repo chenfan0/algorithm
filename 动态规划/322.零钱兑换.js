@@ -14,7 +14,7 @@ function coinChange(coins, amount) {
   for (let i = 1; i <= amount; i++) {  // i指的是钱数
     for (let j = 0; j < n; j++) { // j指的是当前硬币数组的下标
       const curCoin = coins[j]
-      if (i >= curCoin) {  // 当当前剩余的钱数大于该硬币的金额时
+      if (i >= curCoin) {  // 当前剩余的钱数大于该硬币的金额时
         dp[i] = Math.min(dp[i], dp[i - curCoin] + 1)
       }
     }
