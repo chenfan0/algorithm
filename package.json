@@ -1,0 +1,25 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "utilis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "md": "node md.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenfan0/algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenfan0/algorithm/issues"
+  },
+  "homepage": "https://github.com/chenfan0/algorithm#readme",
+  "devDependencies": {
+    "husky": "^7.0.0"
+  }
+}
