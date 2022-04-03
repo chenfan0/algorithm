@@ -9,13 +9,15 @@ function readdirSync(...args) {
   return fs.readdirSync(...args);
 }
 
+function writeFileSync(...args) {
+  return fs.writeFileSync(...args)
+}
+
 function isDir(dirent) {
   return dirent[Object.getOwnPropertySymbols(dirent)[0]] === 2;
 }
 
-const rootPath = './src'
-const readDirSyncOptions = { withFileTypes: true };
-
+// 对readdirSync读取的数据进行处理
 function handleDirs(dirs, parentPath) {
   for (let i = 0; i < dirs.length; i++) {
     const dir = dirs[i];
@@ -27,22 +29,27 @@ function handleDirs(dirs, parentPath) {
   }
   return dirs;
 }
-
-let dirs = readdirSync(resolve(__dirname, rootPath), readDirSyncOptions);
-dirs = handleDirs(dirs, resolve(__dirname, rootPath));
-console.dir(dirs, {depth: Infinity});
-let str = '# Algorithm\n'
-const baseUrl = 'https://github.com/chenfan0/algorithm'
-function handleMdContent(dirs, gap) {
+// 根据目录生成对应的md文件内容
+function handleMdContent(dirs, gap, baseUrl) {
   for (let i = 0; i < dirs.length; i++) {
     const dir = dirs[i]
     const name = dir.name
-    str += `${gap}- [${name}]()\n`
+    const url = baseUrl + `/${name}`
+    mdContent += `${gap}- [${name}](${url})\n`
     if (dir.children) {
-      handleMdContent(dir.children, gap + '  ')
+      handleMdContent(dir.children, gap + '  ', url)
     }
   }
 }
-handleMdContent(dirs, '')
 
-fs.writeFileSync('README.md', str)
+const rootPath = 'src'
+const readDirSyncOptions = { withFileTypes: true };
+let mdContent = '# Algorithm\n'
+const baseUrl = 'https://github.com/chenfan0/algorithm/tree/main/' + rootPath
+
+let dirs = readdirSync(resolve(__dirname, rootPath), readDirSyncOptions);
+dirs = handleDirs(dirs, resolve(__dirname, rootPath));
+
+handleMdContent(dirs, '', baseUrl)
+
+writeFileSync('README.md', mdContent)
