@@ -5,6 +5,7 @@
   - [144.二叉树的前序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/144.二叉树的前序遍历.js)
   - [145.二叉树的后序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/145.二叉树的后序遍历.js)
   - [94.二叉树的中序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/94.二叉树的中序遍历.js)
+  - [98.验证二叉搜索树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/98.验证二叉搜索树.js)
 - [动态规划](https://github.com/chenfan0/algorithm/tree/main/src/动态规划)
   - [121.买卖股票的最佳时机.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/121.买卖股票的最佳时机.js)
   - [122.买卖股票的最佳时机2.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/122.买卖股票的最佳时机2.js)
