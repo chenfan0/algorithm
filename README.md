@@ -1,4 +1,6 @@
 # Algorithm
+
+<!--filetoc-start-->
 - [二叉树](https://github.com/chenfan0/algorithm/tree/main/src/二叉树)
   - [144.二叉树的前序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/144.二叉树的前序遍历.js)
   - [145.二叉树的后序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/145.二叉树的后序遍历.js)
@@ -23,3 +25,4 @@
   - [quickSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/quickSort.js)
   - [selectSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/selectSort.js)
   - [shellSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/shellSort.js)
+<!--filetoc-end-->
