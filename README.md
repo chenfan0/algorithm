@@ -19,6 +19,8 @@
   - [64.最小路径和.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/64.最小路径和.js)
   - [70.爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/70.爬楼梯.js)
   - [746.使用最小花费爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/746.使用最小花费爬楼梯.js)
+- [封装数据结构](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构)
+  - [stack.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/stack.js)
 - [排序算法](https://github.com/chenfan0/algorithm/tree/main/src/排序算法)
   - [bubbleSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/bubbleSort.js)
   - [heapSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/heapSort.js)
