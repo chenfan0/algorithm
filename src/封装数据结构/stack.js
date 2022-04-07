@@ -33,3 +33,6 @@ const stack = new Stack()
 
 stack.push('a')
 console.log(stack.toString());
+
+
+
