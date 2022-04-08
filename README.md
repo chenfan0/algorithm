@@ -6,6 +6,7 @@
   - [101.对称二叉树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/101.对称二叉树.js)
   - [102.二叉树的层序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/102.二叉树的层序遍历.js)
   - [103.二叉树的锯齿形层序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/103.二叉树的锯齿形层序遍历.js)
+  - [104.二叉树的最大深度.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/104.二叉树的最大深度.js)
   - [144.二叉树的前序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/144.二叉树的前序遍历.js)
   - [145.二叉树的后序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/145.二叉树的后序遍历.js)
   - [94.二叉树的中序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/94.二叉树的中序遍历.js)
