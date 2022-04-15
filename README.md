@@ -32,6 +32,7 @@
   - [746.使用最小花费爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/746.使用最小花费爬楼梯.js)
 - [字符串](https://github.com/chenfan0/algorithm/tree/main/src/字符串)
   - [5.最长回文子串.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/5.最长回文子串.js)
+  - [6.Z字形变换.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/6.Z字形变换.js)
 - [封装数据结构](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构)
   - [priorityQueue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/priorityQueue.js)
   - [queue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/queue.js)
