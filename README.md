@@ -30,6 +30,8 @@
   - [64.最小路径和.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/64.最小路径和.js)
   - [70.爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/70.爬楼梯.js)
   - [746.使用最小花费爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/746.使用最小花费爬楼梯.js)
+- [字符串](https://github.com/chenfan0/algorithm/tree/main/src/字符串)
+  - [5.最长回文子串.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/5.最长回文子串.js)
 - [封装数据结构](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构)
   - [priorityQueue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/priorityQueue.js)
   - [queue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/queue.js)
