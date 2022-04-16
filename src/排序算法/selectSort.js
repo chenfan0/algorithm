@@ -1,4 +1,4 @@
-const { getData, swap } = require('../../utilis')
+const { getData, swap } = require('../../utils')
 
 const arr = getData(100)
 
