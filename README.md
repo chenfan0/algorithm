@@ -38,6 +38,7 @@
   - [165.比较版本号.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/165.比较版本号.js)
   - [20.有效的括号.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/20.有效的括号.js)
   - [415.字符串相加.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/415.字符串相加.js)
+  - [46.全排列.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/46.全排列.js)
   - [88.合并两个有序数组.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/88.合并两个有序数组.js)
 - [封装数据结构](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构)
   - [priorityQueue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/priorityQueue.js)
