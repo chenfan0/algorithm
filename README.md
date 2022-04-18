@@ -44,6 +44,7 @@
   - [209.长度最小子数组.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/209.长度最小子数组.js)
   - [415.字符串相加.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/415.字符串相加.js)
   - [46.全排列.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/46.全排列.js)
+  - [695.岛屿的最大面积.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/695.岛屿的最大面积.js)
   - [88.合并两个有序数组.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/88.合并两个有序数组.js)
 - [封装数据结构](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构)
   - [priorityQueue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/priorityQueue.js)
