@@ -38,6 +38,7 @@
   - [15.三数之和.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/15.三数之和.js)
   - [20.有效的括号.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/20.有效的括号.js)
   - [22.链表中倒数第k个节点.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/22.链表中倒数第k个节点.js)
+  - [42.接雨水.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/42.接雨水.js)
   - [46.全排列.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/46.全排列.js)
   - [54.螺旋矩阵.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/54.螺旋矩阵.js)
   - [88.合并两个有序数组.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/88.合并两个有序数组.js)
