@@ -52,6 +52,8 @@
   - [230.二叉搜索树中第k小的元素.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/230.二叉搜索树中第k小的元素.js)
   - [415.字符串相加.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/415.字符串相加.js)
   - [695.岛屿的最大面积.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/695.岛屿的最大面积.js)
+  - [718.最长重复子数组.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/718.最长重复子数组.js)
+  - [1143.最长公共子序列.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/1143.最长公共子序列.js)
 - [封装数据结构](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构)
   - [priorityQueue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/priorityQueue.js)
   - [queue.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/queue.js)
