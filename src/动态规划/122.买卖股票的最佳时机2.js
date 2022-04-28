@@ -16,3 +16,23 @@ function maxProfit(prices) {
   }
   return dp0
 }
+
+function maxProfit(prices) {
+  let profit = 0
+  let minIndex = -1
+  const n = prices.length
+  for (let i = 0; i < prices.length; i++) {
+    if (prices[i] < prices[i + 1] && minIndex === -1) {
+      minIndex = i
+    }
+    if (prices[i] >= prices[i + 1] && minIndex !== -1) {
+      profit += prices[i] - prices[minIndex]
+      minIndex = -1
+    }
+  }
+  if (minIndex !== -1) {
+    profit += prices[n - 1] - prices[minIndex]
+  }
+
+  return profit
+}
