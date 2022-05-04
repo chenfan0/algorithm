@@ -44,6 +44,7 @@
   - [62.圆圈中最后剩下的数字.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/62.圆圈中最后剩下的数字.js)
   - [88.合并两个有序数组.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/88.合并两个有序数组.js)
   - [105.从前序与中序遍历序列构造二叉树.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/105.从前序与中序遍历序列构造二叉树.js)
+  - [106. 从中序与后序遍历序列构造二叉树.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/106. 从中序与后序遍历序列构造二叉树.js)
   - [141.环形链表.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/141.环形链表.js)
   - [165.比较版本号.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/165.比较版本号.js)
   - [200.岛屿数量.js](https://github.com/chenfan0/algorithm/tree/main/src/字节前端/200.岛屿数量.js)
