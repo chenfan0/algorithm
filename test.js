@@ -85,7 +85,6 @@
 //   console.log(res);
 // });
 
-
 // function singlePipe(promiseFn) {
 //   // TODO
 //   let isRunning = false
@@ -182,56 +181,89 @@
 // }
 // console.dir(process(list), {depth: Infinity})
 
-const { getData, swap } = require("./utils");
+// const { getData, swap } = require("./utils");
 
-const arr = getData(100);
+// const arr = getData(100);
 
+// function quickSort(arr) {
+//   function swap(x, y) {
+//     [arr[x], arr[y]] = [arr[y], arr[x]]
+//   }
 
-function quickSort(arr) {
-  function swap(x, y) {
-    [arr[x], arr[y]] = [arr[y], arr[x]]
-  }
+//   function getPivot(left, right) {
+//     const mid = (left + right) >> 1
 
-  function getPivot(left, right) {
-    const mid = (left + right) >> 1
+//     if (arr[left] > arr[mid]) {
+//       swap(left, mid)
+//     }
+//     if (arr[left] > arr[right]) {
+//       swap(left, right)
+//     }
+//     if (arr[mid] > arr[right]) {
+//       swap(mid, right)
+//     }
 
-    if (arr[left] > arr[mid]) {
-      swap(left, mid)
-    }
-    if (arr[left] > arr[right]) {
-      swap(left, right)
-    }
-    if (arr[mid] > arr[right]) {
-      swap(mid, right)
-    }
+//     swap(mid, right - 1)
 
-    swap(mid, right - 1)
+//     return arr[right - 1]
+//   }
 
-    return arr[right - 1]
-  }
+//   function recurse(left, right) {
+//     if (left >= right) return
+//     const pivot = getPivot(left, right)
+//     let i = left
+//     let j = right - 1
 
-  function recurse(left, right) {
-    if (left >= right) return
-    const pivot = getPivot(left, right)
-    let i = left
-    let j = right - 1
+//     while (i < j) {
+//       while (arr[++i] < pivot) {}
+//       while (arr[--j] > pivot) {}
+//       if (i < j) {
+//         swap(i, j)
+//       }
+//     }
 
-    while (i < j) {
-      while (arr[++i] < pivot) {}
-      while (arr[--j] > pivot) {}
-      if (i < j) {
-        swap(i, j)
-      }
-    }
+//     swap(i, right - 1)
+//     recurse(left, i - 1)
+//     recurse(i + 1, right)
+//   }
 
-    swap(i, right - 1)
-    recurse(left, i - 1)
-    recurse(i + 1, right)
-  }
+//   recurse(0, arr.length - 1)
+// }
 
-  recurse(0, arr.length)
+// console.log(arr);
+// quickSort(arr)
+// console.log(arr);
+
+// 3s
+function red() {
+  console.log("red");
+}
+// 1s
+function green() {
+  console.log("green");
+}
+// 2s
+function yellow() {
+  console.log("yellow");
 }
 
-console.log(arr);
-quickSort(arr)
-console.log(arr);
+function light(time, cb) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      cb();
+      resolve();
+    }, time);
+  });
+}
+
+function print() {
+  light(3000, red).then(_ => {
+    light(2000, green).then(_ => {
+      light(1000, yellow).then(_ => {
+        print()
+      })
+    })
+  })
+}
+
+print()
