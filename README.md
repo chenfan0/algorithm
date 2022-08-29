@@ -74,6 +74,7 @@
   - [剑指offer09.用两个栈实现队列.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/剑指offer09.用两个栈实现队列.js)
 - [每日一题](https://github.com/chenfan0/algorithm/tree/main/src/每日一题)
   - [442.数组中重复的数据.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/442.数组中重复的数据.js)
+  - [1470.重新排列数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1470.重新排列数组.js)
 - [滑动窗口](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口)
   - [3.无重复字符的最长子串.js](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口/3.无重复字符的最长子串.js)
 - [链表](https://github.com/chenfan0/algorithm/tree/main/src/链表)
