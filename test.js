@@ -235,35 +235,74 @@
 // console.log(arr);
 
 // 3s
-function red() {
-  console.log("red");
-}
-// 1s
-function green() {
-  console.log("green");
-}
-// 2s
-function yellow() {
-  console.log("yellow");
-}
+// function red() {
+//   console.log("red");
+// }
+// // 1s
+// function green() {
+//   console.log("green");
+// }
+// // 2s
+// function yellow() {
+//   console.log("yellow");
+// }
 
-function light(time, cb) {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      cb();
-      resolve();
-    }, time);
-  });
-}
+// function light(time, cb) {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       cb();
+//       resolve();
+//     }, time);
+//   });
+// }
 
-function print() {
-  light(3000, red).then(_ => {
-    light(2000, green).then(_ => {
-      light(1000, yellow).then(_ => {
-        print()
-      })
-    })
+// function print() {
+//   light(3000, red).then(_ => {
+//     light(2000, green).then(_ => {
+//       light(1000, yellow).then(_ => {
+//         print()
+//       })
+//     })
+//   })
+// }
+
+// print()
+
+const p1 = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('p1')
+  }, 3000)
+})
+const p2 = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('p2')
+  }, 1000)
+})
+const p3 = new Promise((resolve) => {
+  setTimeout(() => {
+    resolve('p3')
+  }, 2000)
+})
+
+const arr = [p1, p2, p3]
+
+async function test(arr) {
+  // 普通 for 循环
+  // for (let i = 0; i < arr.length; i++) {
+  //   const res = await arr[i]
+  //   console.log(res);
+  // }
+  // let i = 0
+  // for (const p of arr) {
+  //   console.log(i++);
+  //   const res = await p
+  //   console.log(res);
+  // }
+  arr.forEach(async (p, index) => {
+    console.log(index);
+    const res = await p
+    console.log(res);
   })
 }
 
-print()
+test(arr)
