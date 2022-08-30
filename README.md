@@ -36,6 +36,7 @@
   - [18.四数之和.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/18.四数之和.js)
   - [27.移除元素.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/27.移除元素.js)
   - [344.反转字符串.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/344.反转字符串.js)
+  - [557.反转字符串中的单词.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/557.反转字符串中的单词.js)
 - [字符串](https://github.com/chenfan0/algorithm/tree/main/src/字符串)
   - [5.最长回文子串.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/5.最长回文子串.js)
   - [6.Z字形变换.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/6.Z字形变换.js)
