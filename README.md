@@ -39,6 +39,8 @@
   - [151.反转字符串中的单词.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/151.反转字符串中的单词.js)
   - [344.反转字符串.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/344.反转字符串.js)
   - [557.反转字符串中的单词III.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/557.反转字符串中的单词III.js)
+- [回溯](https://github.com/chenfan0/algorithm/tree/main/src/回溯)
+  - [51.N皇后.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/51.N皇后.js)
 - [字符串](https://github.com/chenfan0/algorithm/tree/main/src/字符串)
   - [5.最长回文子串.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/5.最长回文子串.js)
   - [6.Z字形变换.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/6.Z字形变换.js)
