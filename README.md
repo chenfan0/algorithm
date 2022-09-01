@@ -33,6 +33,8 @@
   - [322.零钱兑换.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/322.零钱兑换.js)
   - [518.零钱兑换2.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/518.零钱兑换2.js)
   - [746.使用最小花费爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/746.使用最小花费爬楼梯.js)
+- [单调栈](https://github.com/chenfan0/algorithm/tree/main/src/单调栈)
+  - [496.下一个更大元素I.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/496.下一个更大元素I.js)
 - [双指针](https://github.com/chenfan0/algorithm/tree/main/src/双指针)
   - [18.四数之和.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/18.四数之和.js)
   - [27.移除元素.js](https://github.com/chenfan0/algorithm/tree/main/src/双指针/27.移除元素.js)
