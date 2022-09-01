@@ -45,6 +45,7 @@
 - [回溯](https://github.com/chenfan0/algorithm/tree/main/src/回溯)
   - [47.全排列II.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/47.全排列II.js)
   - [51.N皇后.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/51.N皇后.js)
+  - [131.分割回文串.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/131.分割回文串.js)
 - [字符串](https://github.com/chenfan0/algorithm/tree/main/src/字符串)
   - [5.最长回文子串.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/5.最长回文子串.js)
   - [6.Z字形变换.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/6.Z字形变换.js)
