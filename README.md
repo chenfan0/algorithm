@@ -18,6 +18,7 @@
   - [144.二叉树的前序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/144.二叉树的前序遍历.js)
   - [145.二叉树的后序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/145.二叉树的后序遍历.js)
   - [199.二叉树的右视图.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/199.二叉树的右视图.js)
+  - [652.寻找重复的子树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/652.寻找重复的子树.js)
   - [654.最大二叉树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/654.最大二叉树.js)
 - [动态规划](https://github.com/chenfan0/algorithm/tree/main/src/动态规划)
   - [53.最大子数组和.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/53.最大子数组和.js)
