@@ -268,41 +268,41 @@
 
 // print()
 
-const p1 = new Promise((resolve) => {
-  setTimeout(() => {
-    resolve('p1')
-  }, 3000)
-})
-const p2 = new Promise((resolve) => {
-  setTimeout(() => {
-    resolve('p2')
-  }, 1000)
-})
-const p3 = new Promise((resolve) => {
-  setTimeout(() => {
-    resolve('p3')
-  }, 2000)
-})
+// const p1 = new Promise((resolve) => {
+//   setTimeout(() => {
+//     resolve('p1')
+//   }, 3000)
+// })
+// const p2 = new Promise((resolve) => {
+//   setTimeout(() => {
+//     resolve('p2')
+//   }, 1000)
+// })
+// const p3 = new Promise((resolve) => {
+//   setTimeout(() => {
+//     resolve('p3')
+//   }, 2000)
+// })
 
-const arr = [p1, p2, p3]
+// const arr = [p1, p2, p3]
 
-async function test(arr) {
-  // 普通 for 循环
-  // for (let i = 0; i < arr.length; i++) {
-  //   const res = await arr[i]
-  //   console.log(res);
-  // }
-  // let i = 0
-  // for (const p of arr) {
-  //   console.log(i++);
-  //   const res = await p
-  //   console.log(res);
-  // }
-  arr.forEach(async (p, index) => {
-    console.log(index);
-    const res = await p
-    console.log(res);
-  })
-}
+// async function test(arr) {
+// 普通 for 循环
+// for (let i = 0; i < arr.length; i++) {
+//   const res = await arr[i]
+//   console.log(res);
+// }
+// let i = 0
+// for (const p of arr) {
+//   console.log(i++);
+//   const res = await p
+//   console.log(res);
+// }
+//   arr.forEach(async (p, index) => {
+//     console.log(index);
+//     const res = await p
+//     console.log(res);
+//   })
+// }
 
-test(arr)
+// test(arr)
