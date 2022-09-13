@@ -106,6 +106,7 @@
 - [每日一题](https://github.com/chenfan0/algorithm/tree/main/src/每日一题)
   - [442.数组中重复的数据.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/442.数组中重复的数据.js)
   - [667.优美的排列II.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/667.优美的排列II.js)
+  - [670.最大交换.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/670.最大交换.js)
   - [687.最长同值路径.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/687.最长同值路径.js)
   - [946.验证栈序列.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/946.验证栈序列.js)
   - [1470.重新排列数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1470.重新排列数组.js)
