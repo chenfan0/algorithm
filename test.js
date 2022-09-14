@@ -304,5 +304,3 @@
 //     console.log(res);
 //   })
 // }
-
-// test(arr)
