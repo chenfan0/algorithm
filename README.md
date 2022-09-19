@@ -115,6 +115,7 @@
   - [1598.文件夹操作日志搜索器.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1598.文件夹操作日志搜索器.js)
   - [1608.特殊数组的特征值.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1608.特殊数组的特征值.js)
   - [1619.删除某些元素后的数组均值.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1619.删除某些元素后的数组均值.js)
+  - [1636.按照频率将数组升序排序.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1636.按照频率将数组升序排序.js)
 - [滑动窗口](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口)
   - [3.无重复字符的最长子串.js](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口/3.无重复字符的最长子串.js)
 - [链表](https://github.com/chenfan0/algorithm/tree/main/src/链表)
