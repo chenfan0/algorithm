@@ -110,6 +110,7 @@
   - [672.灯泡开关II.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/672.灯泡开关II.js)
   - [687.最长同值路径.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/687.最长同值路径.js)
   - [698.划分为k个相等的子集.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/698.划分为k个相等的子集.js)
+  - [854.相似度为k的字符串.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/854.相似度为k的字符串.js)
   - [946.验证栈序列.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/946.验证栈序列.js)
   - [1470.重新排列数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1470.重新排列数组.js)
   - [1582.二进制矩阵中的特殊位置.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1582.二进制矩阵中的特殊位置.js)
