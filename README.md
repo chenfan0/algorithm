@@ -120,6 +120,7 @@
   - [1619.删除某些元素后的数组均值.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1619.删除某些元素后的数组均值.js)
   - [1624.两个相同字符串之间的最长子字符串.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1624.两个相同字符串之间的最长子字符串.js)
   - [1636.按照频率将数组升序排序.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1636.按照频率将数组升序排序.js)
+  - [1640.能否连接形成数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1640.能否连接形成数组.js)
 - [滑动窗口](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口)
   - [3.无重复字符的最长子串.js](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口/3.无重复字符的最长子串.js)
 - [链表](https://github.com/chenfan0/algorithm/tree/main/src/链表)
