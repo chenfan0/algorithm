@@ -22,7 +22,7 @@
   - [654.最大二叉树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/654.最大二叉树.js)
   - [669.修剪二叉搜索树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/669.修剪二叉搜索树.js)
 - [动态规划](https://github.com/chenfan0/algorithm/tree/main/src/动态规划)
-  - [45.跳跃游戏.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/45.跳跃游戏.js)
+  - [45.跳跃游戏II.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/45.跳跃游戏II.js)
   - [53.最大子数组和.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/53.最大子数组和.js)
   - [55.跳跃游戏.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/55.跳跃游戏.js)
   - [62.不同路径.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/62.不同路径.js)
