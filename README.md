@@ -129,4 +129,5 @@
   - [19.删除链表的倒数第n个节点.js](https://github.com/chenfan0/algorithm/tree/main/src/链表/19.删除链表的倒数第n个节点.js)
   - [142.环形链表2.js](https://github.com/chenfan0/algorithm/tree/main/src/链表/142.环形链表2.js)
   - [160.相交链表.js](https://github.com/chenfan0/algorithm/tree/main/src/链表/160.相交链表.js)
+  - [707.设计链表.js](https://github.com/chenfan0/algorithm/tree/main/src/链表/707.设计链表.js)
 <!--filetoc-end-->
