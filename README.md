@@ -62,6 +62,7 @@
   - [93.复原IP地址.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/93.复原IP地址.js)
   - [131.分割回文串.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/131.分割回文串.js)
   - [216.组合总和III.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/216.组合总和III.js)
+  - [980.不同路径III.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/980.不同路径III.js)
 - [字符串](https://github.com/chenfan0/algorithm/tree/main/src/字符串)
   - [5.最长回文子串.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/5.最长回文子串.js)
   - [6.Z字形变换.js](https://github.com/chenfan0/algorithm/tree/main/src/字符串/6.Z字形变换.js)
