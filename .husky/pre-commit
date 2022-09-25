@@ -1,5 +1,4 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-pnpm filetoc
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+filetoc
 git add .

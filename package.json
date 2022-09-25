@@ -4,7 +4,6 @@
   "description": "",
   "main": "utilis.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "filetoc": "filetoc"
   },
@@ -20,6 +19,6 @@
   },
   "homepage": "https://github.com/chenfan0/algorithm#readme",
   "devDependencies": {
-    "husky": "^7.0.0"
+    "husky": "^8.0.0"
   }
 }
