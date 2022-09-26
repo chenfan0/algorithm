@@ -4,8 +4,7 @@
   "description": "",
   "main": "utilis.js",
   "scripts": {
-    "prepare": "husky install",
-    "filetoc": "filetoc"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
