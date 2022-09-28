@@ -105,6 +105,8 @@
   - [quickSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/quickSort.js)
   - [selectSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/selectSort.js)
   - [shellSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/shellSort.js)
+- [最小堆](https://github.com/chenfan0/algorithm/tree/main/src/最小堆)
+  - [面试题 17.09. 第 k 个数.js](https://github.com/chenfan0/algorithm/tree/main/src/最小堆/面试题 17.09. 第 k 个数.js)
 - [栈和队列](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列)
   - [71.简化路径.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/71.简化路径.js)
   - [剑指offer09.用两个栈实现队列.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/剑指offer09.用两个栈实现队列.js)
