@@ -131,6 +131,7 @@
   - [1640.能否连接形成数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1640.能否连接形成数组.js)
   - [1652.拆炸弹.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1652.拆炸弹.js)
   - [面试题 01.02. 判定是否互为字符重排.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/面试题 01.02. 判定是否互为字符重排.js)
+  - [面试题 01.08. 零矩阵.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/面试题 01.08. 零矩阵.js)
   - [面试题 01.09. 字符串轮转.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/面试题 01.09. 字符串轮转.js)
 - [滑动窗口](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口)
   - [3.无重复字符的最长子串.js](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口/3.无重复字符的最长子串.js)
