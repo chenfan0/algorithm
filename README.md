@@ -130,6 +130,7 @@
   - [1636.按照频率将数组升序排序.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1636.按照频率将数组升序排序.js)
   - [1640.能否连接形成数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1640.能否连接形成数组.js)
   - [1652.拆炸弹.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1652.拆炸弹.js)
+  - [1694. 重新格式化电话号码.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1694. 重新格式化电话号码.js)
   - [面试题 01.02. 判定是否互为字符重排.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/面试题 01.02. 判定是否互为字符重排.js)
   - [面试题 01.08. 零矩阵.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/面试题 01.08. 零矩阵.js)
   - [面试题 01.09. 字符串轮转.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/面试题 01.09. 字符串轮转.js)
