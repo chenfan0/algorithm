@@ -44,6 +44,7 @@
   - [746.使用最小花费爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/746.使用最小花费爬楼梯.js)
 - [单调栈](https://github.com/chenfan0/algorithm/tree/main/src/单调栈)
   - [496.下一个更大元素I.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/496.下一个更大元素I.js)
+  - [503. 下一个更大元素 II.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/503. 下一个更大元素 II.js)
   - [739. 每日温度.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/739. 每日温度.js)
   - [1475.商品折扣后的最终价格.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/1475.商品折扣后的最终价格.js)
 - [双指针](https://github.com/chenfan0/algorithm/tree/main/src/双指针)
