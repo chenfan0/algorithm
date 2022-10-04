@@ -36,6 +36,7 @@
   - [121.买卖股票的最佳时机.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/121.买卖股票的最佳时机.js)
   - [122.买卖股票的最佳时机II.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/122.买卖股票的最佳时机II.js)
   - [123.买卖股票的最佳时机III.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/123.买卖股票的最佳时机III.js)
+  - [188.买卖股票的最佳时机IV.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/188.买卖股票的最佳时机IV.js)
   - [221.最大正方形.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/221.最大正方形.js)
   - [300.最长递增子序列.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/300.最长递增子序列.js)
   - [322.零钱兑换.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/322.零钱兑换.js)
