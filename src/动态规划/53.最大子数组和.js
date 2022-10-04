@@ -7,7 +7,7 @@ const nums = [-2,1,-3,4,-1,2,1,-5,4] // 6
 function maxSubArray(nums) {
   const length = nums.length
   let cur = 0
-  let max = 0
+  let max = -Infinity
 
   for (let i = 0; i < length; i++) {
     cur += nums[i]

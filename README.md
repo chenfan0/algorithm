@@ -123,6 +123,7 @@
   - [777. 在LR字符串中交换相邻字符.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/777. 在LR字符串中交换相邻字符.js)
   - [788.旋转数字.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/788.旋转数字.js)
   - [854.相似度为k的字符串.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/854.相似度为k的字符串.js)
+  - [921. 使括号有效的最少添加.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/921. 使括号有效的最少添加.js)
   - [946.验证栈序列.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/946.验证栈序列.js)
   - [1470.重新排列数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1470.重新排列数组.js)
   - [1582.二进制矩阵中的特殊位置.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1582.二进制矩阵中的特殊位置.js)
