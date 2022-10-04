@@ -32,6 +32,7 @@
   - [64.最小路径和.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/64.最小路径和.js)
   - [70.爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/70.爬楼梯.js)
   - [72.编辑距离.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/72.编辑距离.js)
+  - [115.不同的子序列.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/115.不同的子序列.js)
   - [121.买卖股票的最佳时机.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/121.买卖股票的最佳时机.js)
   - [122.买卖股票的最佳时机2.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/122.买卖股票的最佳时机2.js)
   - [221.最大正方形.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/221.最大正方形.js)
