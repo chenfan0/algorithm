@@ -43,6 +43,7 @@
   - [322.零钱兑换.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/322.零钱兑换.js)
   - [375.猜数字大小II.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/375.猜数字大小II.js)
   - [377.组合总和IV.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/377.组合总和IV.js)
+  - [392.判断子序列.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/392.判断子序列.js)
   - [416.分割等和子集.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/416.分割等和子集.js)
   - [518.零钱兑换2.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/518.零钱兑换2.js)
   - [583.两个字符串的删除操作.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/583.两个字符串的删除操作.js)
