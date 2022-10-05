@@ -17,3 +17,22 @@ var rob = function(nums) {
   }
   return dp[n - 1]
 }
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+// 节约空间
+var rob = function(nums) {
+  const n = nums.length
+  if (n === 1) return nums[0]
+  let prev = nums[0], cur = Math.max(nums[0], nums[1])
+
+  for (let i = 2; i < n; i++) {
+    const temp = cur
+    cur = Math.max(cur, prev + nums[i])
+    prev = temp
+  }
+
+  return cur
+}
