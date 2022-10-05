@@ -4,6 +4,8 @@
  * @param {number[]} nums
  * @return {boolean}
  */
+
+// 和 1049题 类似
 var canPartition = function(nums) {
   const total = nums.reduce((prev, cur) => prev + cur)
   if (total % 2 !== 0) return false

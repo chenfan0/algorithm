@@ -4,6 +4,7 @@
  * @param {number} n
  * @return {number}
  */
+
  var integerBreak = function(n) {
   const dp = new Array(n + 1).fill(0)
   dp[1] = 1
