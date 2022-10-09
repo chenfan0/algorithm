@@ -8,7 +8,7 @@ function postorderTraversal(root) {
 
   while (stack.length > 0) {
     const node = stack.pop()
-    result.unshift(node.val)
+    result.push(node.val)
     if (node.left) {
       stack.push(node.left)
     }
@@ -16,6 +16,6 @@ function postorderTraversal(root) {
       stack.push(node.right)
     }
   }
-  return result
+  return result.reverse()
 }
 

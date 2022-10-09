@@ -127,6 +127,7 @@
   - [shellSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/shellSort.js)
 - [栈和队列](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列)
   - [71.简化路径.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/71.简化路径.js)
+  - [856.括号的分数.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/856.括号的分数.js)
   - [剑指offer09.用两个栈实现队列.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/剑指offer09.用两个栈实现队列.js)
 - [每日一题](https://github.com/chenfan0/algorithm/tree/main/src/每日一题)
   - [442.数组中重复的数据.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/442.数组中重复的数据.js)

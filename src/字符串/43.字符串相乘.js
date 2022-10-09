@@ -21,3 +21,5 @@ var multiply = function (num1, num2) {
   if (res[0] === 0) res.shift()
   return res.join('')
 }
+
+multiply('123', '456')
