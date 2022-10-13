@@ -136,6 +136,7 @@
   - [672.灯泡开关II.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/672.灯泡开关II.js)
   - [687.最长同值路径.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/687.最长同值路径.js)
   - [698.划分为k个相等的子集.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/698.划分为k个相等的子集.js)
+  - [769.最多能完成排序的块.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/769.最多能完成排序的块.js)
   - [777.在LR字符串中交换相邻字符.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/777.在LR字符串中交换相邻字符.js)
   - [788.旋转数字.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/788.旋转数字.js)
   - [854.相似度为k的字符串.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/854.相似度为k的字符串.js)
