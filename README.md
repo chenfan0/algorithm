@@ -54,6 +54,7 @@
   - [646.最长数对链.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/646.最长数对链.js)
   - [714.买卖股票的最佳时机含手续费.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/714.买卖股票的最佳时机含手续费.js)
   - [746.使用最小花费爬楼梯.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/746.使用最小花费爬楼梯.js)
+  - [940.不同的子序列II.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/940.不同的子序列II.js)
   - [1049.最后一块石头的总量II.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/1049.最后一块石头的总量II.js)
   - [1143.最长公共子序列.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/1143.最长公共子序列.js)
 - [单调栈](https://github.com/chenfan0/algorithm/tree/main/src/单调栈)
