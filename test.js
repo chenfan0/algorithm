@@ -304,3 +304,57 @@
 //     console.log(res);
 //   })
 // }
+
+const tree = [
+  { name: 'A' },
+  {
+    name: 'B', children: [
+      { name: 'A' },
+      {name:'AA',children:[{name:'AAA'}]},
+    ]
+  },
+  {name:'C'}
+]
+// 1.假设我输入的str为A, 则过滤后返回的结果为
+// [
+//   { name: 'A' },
+//   {name:'B',children:[{name:'A'}]}
+// ]
+// //2.假设我输入的str为AA,则过滤后返回的结果为
+// [
+//   {
+//     name: 'B', children: [
+//     {name:'AA',children:[{name:'AAA'}]}
+//   ]}
+// ]
+ 
+// //3.假设我输入的str为B,则过滤后返回的结果为
+// [
+//   {
+//     name: 'B', children: [
+//       { name: 'A' },
+//       {name:'AA',children:[{name:'AAA'}]}
+//   ]}
+// ]
+
+
+function filter(str, tree) {
+  const res = []
+
+  for (const node of tree){
+    if (node.name === str) {
+      res.push(node)
+    } else if (node.children) {
+      const children = filter(str, node.children)
+      if (children.length !== 0) {
+        const newNode = JSON.parse(JSON.stringify(node))
+        newNode.children = children
+        res.push(newNode)
+      }
+    }
+  }
+
+  return res
+}
+
+console.dir(filter('AA', tree), {depth: Infinity})

@@ -20,4 +20,16 @@
       total = (total + dp) % MOD
   }
   return total
+
+  // const MOD = 10 ** 9 + 7
+  //   const endsArr = new Array(26).fill(0)
+  //   let dp = 1
+  //   endsArr[s[0].charCodeAt() - 97] = 1
+  //   for (let i = 1; i < s.length; i++) {
+  //     const prev = dp
+  //     const endsIndex = s[i].charCodeAt() - 97
+  //     dp = (dp * 2 + 1 - endsArr[endsIndex] + MOD) % MOD
+  //     endsArr[endsIndex] = (prev + 1) % MOD
+  //   }
+  //   return dp
 };
