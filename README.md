@@ -162,6 +162,7 @@
   - [面试题01.09.字符串轮转.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/面试题01.09.字符串轮转.js)
 - [滑动窗口](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口)
   - [3.无重复字符的最长子串.js](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口/3.无重复字符的最长子串.js)
+  - [904.水果成篮.js](https://github.com/chenfan0/algorithm/tree/main/src/滑动窗口/904.水果成篮.js)
 - [链表](https://github.com/chenfan0/algorithm/tree/main/src/链表)
   - [2.两数相加.js](https://github.com/chenfan0/algorithm/tree/main/src/链表/2.两数相加.js)
   - [19.删除链表的倒数第n个节点.js](https://github.com/chenfan0/algorithm/tree/main/src/链表/19.删除链表的倒数第n个节点.js)
