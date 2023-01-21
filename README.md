@@ -59,6 +59,7 @@
   - [1143.最长公共子序列.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/1143.最长公共子序列.js)
 - [单调栈](https://github.com/chenfan0/algorithm/tree/main/src/单调栈)
   - [84.柱状图中最大的矩形.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/84.柱状图中最大的矩形.js)
+  - [85.最大矩形.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/85.最大矩形.js)
   - [496.下一个更大元素I.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/496.下一个更大元素I.js)
   - [503.下一个更大元素II.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/503.下一个更大元素II.js)
   - [739.每日温度.js](https://github.com/chenfan0/algorithm/tree/main/src/单调栈/739.每日温度.js)
