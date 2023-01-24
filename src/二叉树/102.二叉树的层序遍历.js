@@ -36,3 +36,27 @@ function levelOrder(root) {
   }
   return result
 }
+
+function levelOrder(root) {
+  if (!root) return []
+  const res = []
+  const queue = [root]
+
+  while (queue.length) {
+    const levelSize = queue.length
+    const currentRes = []
+
+    for (let i = 0; i < levelSize; i++) {
+      const node = queue.shift()
+      if (node.left) {
+        queue.push(node.left)
+      }
+      if (node.right) {
+        queue.push(node.right)
+      }
+      currentRes.push(node.val)
+    }
+    res.push(currentRes)
+  }
+  return res
+}
