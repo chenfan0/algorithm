@@ -32,3 +32,22 @@ function flatten(root) {
     }
   }
 }
+
+/**
+ * @param {TreeNode} root
+ * @return {void} Do not return anything, modify root in-place instead.
+ */
+function flatten(root) {
+  // 递归
+  if (!root) return null
+  const right = root.right
+  root.right = root.left
+  root.left = null
+  flatten(root.right)
+  flatten(right)
+
+  while (root.right) {
+    root = root.right
+  }
+  root.right = right
+}
