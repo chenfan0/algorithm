@@ -40,6 +40,7 @@
   - [121.买卖股票的最佳时机.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/121.买卖股票的最佳时机.js)
   - [122.买卖股票的最佳时机II.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/122.买卖股票的最佳时机II.js)
   - [123.买卖股票的最佳时机III.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/123.买卖股票的最佳时机III.js)
+  - [139.单词拆分.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/139.单词拆分.js)
   - [188.买卖股票的最佳时机IV.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/188.买卖股票的最佳时机IV.js)
   - [198.打家劫舍.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/198.打家劫舍.js)
   - [213.打家劫舍II.js](https://github.com/chenfan0/algorithm/tree/main/src/动态规划/213.打家劫舍II.js)
