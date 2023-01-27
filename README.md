@@ -1,6 +1,8 @@
 # Algorithm
 
 <!--filetoc-start-->
+- [hot100](https://github.com/chenfan0/algorithm/tree/main/src/hot100)
+  - [136.只出现一次的数字.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/136.只出现一次的数字.js)
 - [二叉树](https://github.com/chenfan0/algorithm/tree/main/src/二叉树)
   - [94.二叉树的中序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/94.二叉树的中序遍历.js)
   - [98.验证二叉搜索树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/98.验证二叉搜索树.js)
