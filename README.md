@@ -6,6 +6,7 @@
   - [146.LRU缓存.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/146.LRU缓存.js)
   - [155.最小栈.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/155.最小栈.js)
   - [169.多数元素.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/169.多数元素.js)
+  - [208.实现Trie(前缀树).js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/208.实现Trie(前缀树).js)
 - [二叉树](https://github.com/chenfan0/algorithm/tree/main/src/二叉树)
   - [94.二叉树的中序遍历.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/94.二叉树的中序遍历.js)
   - [98.验证二叉搜索树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/98.验证二叉搜索树.js)
