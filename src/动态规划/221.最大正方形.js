@@ -18,7 +18,7 @@ function maximalSquare(matrix) {
         if (matrix[i][j] === "0") {
           dp[i][j] = 0;
         } else {
-          // dp[i][j]去左边右边，左上方的最小值 + 1
+          // dp[i][j]取左边右边，左上方的最小值 + 1
           dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1;
           max = Math.max(dp[i][j], max);
         }
