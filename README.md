@@ -134,6 +134,7 @@
   - [stack.js](https://github.com/chenfan0/algorithm/tree/main/src/封装数据结构/stack.js)
 - [排序算法](https://github.com/chenfan0/algorithm/tree/main/src/排序算法)
   - [61.扑克牌中的顺子.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/61.扑克牌中的顺子.js)
+  - [179.最大数.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/179.最大数.js)
   - [bubbleSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/bubbleSort.js)
   - [heapSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/heapSort.js)
   - [insertSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/insertSort.js)
