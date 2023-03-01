@@ -338,23 +338,51 @@ const tree = [
 // ]
 
 
-function filter(str, tree) {
-  const res = []
+// function filter(str, tree) {
+//   const res = []
 
-  for (const node of tree){
-    if (node.name === str) {
-      res.push(node)
-    } else if (node.children) {
-      const children = filter(str, node.children)
-      if (children.length !== 0) {
-        const newNode = JSON.parse(JSON.stringify(node))
-        newNode.children = children
-        res.push(newNode)
-      }
-    }
+//   for (const node of tree){
+//     if (node.name === str) {
+//       res.push(node)
+//     } else if (node.children) {
+//       const children = filter(str, node.children)
+//       if (children.length !== 0) {
+//         const newNode = JSON.parse(JSON.stringify(node))
+//         newNode.children = children
+//         res.push(newNode)
+//       }
+//     }
+//   }
+
+//   return res
+// }
+
+// console.dir(filter('AA', tree), {depth: Infinity})
+
+
+const obj = { name: 123, friends: [1, 2, 3] }
+obj.self = obj
+
+function deepClone(obj, map = new WeakMap()) {
+  if (typeof obj !== 'object' && obj !== null) {
+    return obj
+  }
+  if (map.has(obj)) {
+    return map.get(obj)
   }
 
-  return res
+  const newObj = Array.isArray(obj) ? [] : {}
+  map.set(obj, newObj)
+  const keys = Object.keys(obj)
+
+  for (const key of keys) {
+    newObj[key] = deepClone(obj[key], map)
+  }
+
+  return newObj
 }
 
-console.dir(filter('AA', tree), {depth: Infinity})
+const newObj = deepClone(obj)
+
+newObj.friends[0] = 123
+console.log(newObj, obj);

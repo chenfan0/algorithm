@@ -5,18 +5,20 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-var nextGreaterElement = function (nums1, nums2) { 
+var nextGreaterElement = function (nums1, nums2) {
   const stack = []
   const map = new Map()
+  const len = nums2.length
 
-  for (let i = nums2.length - 1; i >= 0; i--) {
-    const num = nums2[i]
+  for (let i = len - 1; i >= 0; i--) {
+    const cur = nums2[i]
 
-    while (stack.length && num > stack[stack.length - 1]) {
+    while (stack.length && stack[stack.length - 1] <= cur) {
       stack.pop()
     }
-    map.set(num, stack.length ? stack[stack.length - 1] : -1)
-    stack.push(num)
+    map.set(cur, stack.length ? stack[stack.length - 1] : -1)
+    stack.push(cur)
   }
-  return new Array(nums1.length).fill(0).map((_, index) => map.get(nums1[index]))
+
+  return nums1.map(val => map.get(val))
 }
