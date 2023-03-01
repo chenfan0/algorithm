@@ -8,17 +8,18 @@
   // 也可以通过取余当前字符串或者数组的长度进行获取数据
   const stack = []
   const res = []
+  const len = nums.length
 
-  for (let i = nums.length * 2 - 1; i >= 0; i--) {
-    const item = nums[i % nums.length]
+  for (let i = len * 2 - 1; i >= 0; i--) {
+    const cur = nums[i % len]
 
-    while (stack.length && item >= stack[stack.length - 1]) {
+    while (stack.length && stack[stack.length - 1] <= cur) {
       stack.pop()
     }
-    if (i <= nums.length - 1) {
-      res[i] = stack.length ? stack[stack.length - 1] : -1 
+    if (i < len) {
+      res[i] = stack.length ? stack[stack.length - 1] : -1
     }
-    stack.push(item)
+    stack.push(cur)
   }
   return res
 };
