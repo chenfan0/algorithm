@@ -21,30 +21,32 @@ function lengthOfLIS(nums) {
 
 // 贪心+二分
 function lengthOfLIS(nums) {
-  let len = 1,
-    n = nums.length;
-  const d = new Array(n + 1);
-  d[len] = nums[0];
 
-  for (let i = 1; i < n; ++i) {
-    if (nums[i] > d[len]) {
-      d[++len] = nums[i];
+  const arr = [nums[0]]
+  let end = 0
+  for (let i = 1; i < nums.length; i++) {
+    const num = nums[i]
+    if (num > arr[end]) {
+      arr[++end] = num
     } else {
-      let l = 1,
-        r = len,
-        pos = 0; // 如果找不到说明所有的数都比 nums[i] 大，此时要更新 d[1]，所以这里将 pos 设为 0
-      // 要找出 d 中比 nums[i]小的所有值中，最大的那一个下标。
+      let l = 0, r = end
+      // 在arr数组中，找到大于arr[mid]的最小值的下标，然后进行替换
+      // 也就是让arr数组递增的尽量慢
+      // [1, 7, 8] 5
+      // [1, 5, 8]
       while (l <= r) {
-        let mid = Math.floor((l + r) / 2);
-        if (d[mid] < nums[i]) {
-          pos = mid;
-          l = mid + 1;
+        const mid = (l + r) >> 1
+        if (num > arr[mid]) {
+          l = mid + 1
+        } else if (num < arr[mid]) {
+          r = mid - 1
         } else {
-          r = mid - 1;
+          l = mid
+          break
         }
       }
-      d[pos + 1] = nums[i];
+      arr[l] = num
     }
   }
-  return len;
+  return arr.length
 }
