@@ -1,4 +1,4 @@
-const { getData } = require('../utilis')
+const { getData } = require('../../utils')
 
 const arr = getData(100)
 
@@ -8,25 +8,46 @@ const arr = getData(100)
 // 时间复杂度：O(nlogn)
 // 空间复杂度：O(1)
 // 稳定性：不稳定
+// function shellSort(arr) {
+//   const length = arr.length
+//   let gap = Math.floor(length / 2)
+
+//   while (gap >= 1) {
+//     for (let i = gap; i < length; i++) {
+//       let j = i
+//       const temp = arr[j]
+  
+//       while (j >= gap && arr[j - gap] > temp) {
+//         arr[j] = arr[j - gap]
+//         j -= gap
+//       }
+  
+//       arr[j] = temp
+//     }
+//     gap = Math.floor(gap / 2)
+//   }
+
+//   return arr
+// }
+
 function shellSort(arr) {
-  const length = arr.length
-  let gap = Math.floor(length / 2)
+  const len = arr.length
+  let gap = len >> 1
 
   while (gap >= 1) {
-    for (let i = gap; i < length; i++) {
+    for (let i = gap; i < len; i++) {
       let j = i
-      const temp = arr[j]
-  
+      let temp = arr[j]
+
       while (j >= gap && arr[j - gap] > temp) {
         arr[j] = arr[j - gap]
         j -= gap
       }
-  
+
       arr[j] = temp
     }
-    gap = Math.floor(gap / 2)
+    gap >>= 1
   }
-
   return arr
 }
 

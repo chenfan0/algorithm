@@ -8,19 +8,37 @@ const arr = getData(100)
 // 时间复杂度：O(n^2)
 // 空间复杂度：O(1)
 // 稳定性：不稳定
-function selecSort(arr) {
-  const length = arr.length
+// function selectSort(arr) {
+//   const length = arr.length
 
-  for (let i = 0; i < length; i++) {
+//   for (let i = 0; i < length; i++) {
+//     let minIndex = i
+//     for (let j = i + 1; j < length; j++) {
+//       if (arr[j] < arr[minIndex]) {
+//         minIndex = j
+//       }
+//     }
+//     // 如果minIndex与i不相同，则说明有比i更小的值，进行交换
+//     if (minIndex !== i) {
+//       swap(arr, minIndex, i)
+//     }
+//   }
+
+//   return arr
+// }
+
+function selectSort(arr) {
+  const len = arr.length
+
+  for (let i = 0; i < len; i++) {
     let minIndex = i
-    for (let j = i + 1; j < length; j++) {
+    for (let j = i + 1; j < len; j++) {
       if (arr[j] < arr[minIndex]) {
         minIndex = j
       }
     }
-    // 如果minIndex与i不相同，则说明有比i更小的值，进行交换
     if (minIndex !== i) {
-      swap(arr, minIndex, i)
+      swap(arr, i ,minIndex)
     }
   }
 
@@ -28,4 +46,4 @@ function selecSort(arr) {
 }
 
 // test
-console.log(selecSort(arr));
+console.log(selectSort(arr));

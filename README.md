@@ -161,6 +161,7 @@
   - [886.可能得二分法.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/886.可能得二分法.js)
   - [921.使括号有效的最少添加.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/921.使括号有效的最少添加.js)
   - [946.验证栈序列.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/946.验证栈序列.js)
+  - [1090.受标签影响的最大值.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1090.受标签影响的最大值.js)
   - [1470.重新排列数组.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1470.重新排列数组.js)
   - [1582.二进制矩阵中的特殊位置.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1582.二进制矩阵中的特殊位置.js)
   - [1592.重新排列单词词间的空格.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/1592.重新排列单词词间的空格.js)

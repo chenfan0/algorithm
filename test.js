@@ -360,29 +360,50 @@ const tree = [
 // console.dir(filter('AA', tree), {depth: Infinity})
 
 
-const obj = { name: 123, friends: [1, 2, 3] }
-obj.self = obj
+// const obj = { name: 123, friends: [1, 2, 3] }
+// obj.self = obj
 
-function deepClone(obj, map = new WeakMap()) {
-  if (typeof obj !== 'object' && obj !== null) {
-    return obj
-  }
-  if (map.has(obj)) {
-    return map.get(obj)
-  }
+// function deepClone(obj, map = new WeakMap()) {
+//   if (typeof obj !== 'object' && obj !== null) {
+//     return obj
+//   }
+//   if (map.has(obj)) {
+//     return map.get(obj)
+//   }
 
-  const newObj = Array.isArray(obj) ? [] : {}
-  map.set(obj, newObj)
-  const keys = Object.keys(obj)
+//   const newObj = Array.isArray(obj) ? [] : {}
+//   map.set(obj, newObj)
+//   const keys = Object.keys(obj)
 
-  for (const key of keys) {
-    newObj[key] = deepClone(obj[key], map)
-  }
+//   for (const key of keys) {
+//     newObj[key] = deepClone(obj[key], map)
+//   }
 
-  return newObj
+//   return newObj
+// }
+
+// const newObj = deepClone(obj)
+
+// newObj.friends[0] = 123
+// console.log(newObj, obj);
+
+
+function myAll(promiseArr = []) {
+  const arr = []
+  let alreadyResolve = 0
+
+  return new Promise((resolve, reject) => {
+    promiseArr.forEach((promise, index) => {
+      promise.then(res => {
+        alreadyResolve++
+        arr[index] = res
+        if (alreadyResolve === promiseArr.length) {
+          resolve(arr)
+        }
+      }, rea => {
+        reject(rea)
+      })
+    })
+  })
 }
 
-const newObj = deepClone(obj)
-
-newObj.friends[0] = 123
-console.log(newObj, obj);
