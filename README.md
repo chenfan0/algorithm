@@ -30,6 +30,7 @@
   - [654.最大二叉树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/654.最大二叉树.js)
   - [669.修剪二叉搜索树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/669.修剪二叉搜索树.js)
   - [1110.删点成林.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/1110.删点成林.js)
+  - [1448.统计二叉树中好节点的数目.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/1448.统计二叉树中好节点的数目.js)
 - [位运算](https://github.com/chenfan0/algorithm/tree/main/src/位运算)
   - [面试题17.19.消失的两个数字.js](https://github.com/chenfan0/algorithm/tree/main/src/位运算/面试题17.19.消失的两个数字.js)
 - [动态规划](https://github.com/chenfan0/algorithm/tree/main/src/动态规划)
