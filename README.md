@@ -149,6 +149,7 @@
   - [856.括号的分数.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/856.括号的分数.js)
   - [剑指offer09.用两个栈实现队列.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/剑指offer09.用两个栈实现队列.js)
 - [每日一题](https://github.com/chenfan0/algorithm/tree/main/src/每日一题)
+  - [228.汇总区间.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/228.汇总区间.js)
   - [442.数组中重复的数据.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/442.数组中重复的数据.js)
   - [667.优美的排列II.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/667.优美的排列II.js)
   - [670.最大交换.js](https://github.com/chenfan0/algorithm/tree/main/src/每日一题/670.最大交换.js)
