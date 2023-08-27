@@ -2,6 +2,7 @@
 
 <!--filetoc-start-->
 - [hot100](https://github.com/chenfan0/algorithm/tree/main/src/hot100)
+  - [56.合并区间.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/56.合并区间.js)
   - [136.只出现一次的数字.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/136.只出现一次的数字.js)
   - [146.LRU缓存.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/146.LRU缓存.js)
   - [155.最小栈.js](https://github.com/chenfan0/algorithm/tree/main/src/hot100/155.最小栈.js)
