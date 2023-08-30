@@ -101,6 +101,7 @@
   - [980.不同路径III.js](https://github.com/chenfan0/algorithm/tree/main/src/回溯/980.不同路径III.js)
 - [图](https://github.com/chenfan0/algorithm/tree/main/src/图)
   - [547.省份数量.js](https://github.com/chenfan0/algorithm/tree/main/src/图/547.省份数量.js)
+  - [1654.到家的最少跳跃次数.js](https://github.com/chenfan0/algorithm/tree/main/src/图/1654.到家的最少跳跃次数.js)
 - [堆](https://github.com/chenfan0/algorithm/tree/main/src/堆)
   - [1045.最后一块石头的重量.js](https://github.com/chenfan0/algorithm/tree/main/src/堆/1045.最后一块石头的重量.js)
   - [面试题17.09.第k个数.js](https://github.com/chenfan0/algorithm/tree/main/src/堆/面试题17.09.第k个数.js)
