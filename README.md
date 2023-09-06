@@ -33,6 +33,7 @@
   - [669.修剪二叉搜索树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/669.修剪二叉搜索树.js)
   - [823.带因子的二叉树.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/823.带因子的二叉树.js)
   - [1110.删点成林.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/1110.删点成林.js)
+  - [1123.最深叶节点的最近公共祖先.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/1123.最深叶节点的最近公共祖先.js)
   - [1448.统计二叉树中好节点的数目.js](https://github.com/chenfan0/algorithm/tree/main/src/二叉树/1448.统计二叉树中好节点的数目.js)
 - [位运算](https://github.com/chenfan0/algorithm/tree/main/src/位运算)
   - [面试题17.19.消失的两个数字.js](https://github.com/chenfan0/algorithm/tree/main/src/位运算/面试题17.19.消失的两个数字.js)
