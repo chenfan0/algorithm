@@ -150,6 +150,7 @@
   - [selectSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/selectSort.js)
   - [shellSort.js](https://github.com/chenfan0/algorithm/tree/main/src/排序算法/shellSort.js)
 - [数组](https://github.com/chenfan0/algorithm/tree/main/src/数组)
+  - [1222.可以攻击国王的皇后.js](https://github.com/chenfan0/algorithm/tree/main/src/数组/1222.可以攻击国王的皇后.js)
   - [2605.从两个数字数组里生成最小数字.js](https://github.com/chenfan0/algorithm/tree/main/src/数组/2605.从两个数字数组里生成最小数字.js)
 - [栈和队列](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列)
   - [71.简化路径.js](https://github.com/chenfan0/algorithm/tree/main/src/栈和队列/71.简化路径.js)
